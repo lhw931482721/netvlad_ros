@@ -1,0 +1,6 @@
+global_feature/mbv2_ca.pt
+global_feature/pca_mobilenetv2.h5
+global_feature/mobilenet_v2.pt
+global_feature/pca_params_moca.h5
+global_feature/pca_params_model_best.h5
+global_feature/vgg.pt

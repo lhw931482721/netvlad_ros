@@ -13,3 +13,9 @@ global_feature_node.py 75
 # 5 修改模型路径
 global_feature_node.py 26
 net_path = rospy.get_param('path','/home/lhw/ros/netvlad_ros/src/deepfeature/global_feature/')
+# 6 运行
+cd /home/lhw/ros/cv_bridge
+source install/setup.bash --extend
+cd /home/lhw/ros/netvlad_ros
+source devel/setup.bash --extend
+rosrun global_feature global_feature_node.py

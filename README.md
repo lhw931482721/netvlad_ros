@@ -10,3 +10,6 @@ rospy 实现netvlad接入
 # 4 修改发布节点
 global_feature_node.py 75 
 默认使用  '/d400/features'
+# 5 修改模型路径
+global_feature_node.py 26
+net_path = rospy.get_param('path','/home/lhw/ros/netvlad_ros/src/deepfeature/global_feature/')
